@@ -1,6 +1,11 @@
-* {
-  font-family: helvetica;
-  color: seashell;
-  opacity: .09;
-  background-color: color; black;
+.navigation {
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.navlogo {
+  height: 200px;
+  width: auto;
 }
