@@ -11,7 +11,7 @@
   height: 69px;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   border-bottom: 1px solid seashell;
 }
 .navlogo img {
@@ -19,9 +19,42 @@
   margin-left: 10px;
 }
 .navlinks {
+  display: flex;
+  justify-content: flex-end;
   width: 100%;
+  margin-right: 70px;
   text-align: right;
   text-decoration: underline;
-  margin-right: 70px;
 
+}
+.navlinks .navlinksdiv {
+  width: 150px;
+}
+
+.headerbanner {
+  padding-top: 70px;
+  align-items: center;
+  height: 750px;
+  width: auto;
+  background-color: black;
+}
+
+.missionimg img {
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  z-index: -1;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 80px;
+}
+
+.missionbanner {
+  align-content: center;
+  align-items:center;
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+  padding: 10 30;
+  z-index: 2;
 }
