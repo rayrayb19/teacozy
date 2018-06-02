@@ -9,7 +9,6 @@ body { font-family: helvetica;
 
 /* Header Navigation */
 
-}
 header {
   display: inline-flex;
   align-items: center;
@@ -39,6 +38,7 @@ header {
 nav span {
   display: inline-flex;
   padding: 20px 10px;
+  text-decoration: underline;
 }
 
 /* Header Banner */
