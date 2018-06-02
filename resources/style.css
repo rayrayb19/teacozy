@@ -16,6 +16,8 @@ header {
   z-index: 3;
   width: 100%;
   height: 69px;
+  margin: 0 auto;
+  padding: 0;
   border-bottom: 1px solid seashell;
   background-color: black;
   opacity: .9;
