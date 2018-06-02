@@ -1,35 +1,47 @@
-* { font-family: helvetica;
+/* Universal Styles */
+
+body { font-family: helvetica;
     font-size: 22px;
     color: seashell;
     opacity: .9;
+    background-color: black;
 }
-.navigation {
-  display: inline-flex;
-  align-items: center;
-  background-color: black;
-  align-content: space-between;
-  height: 69px;
-  width: 100%;
-  position: fixed;
-  z-index: 3;
-  border-bottom: 1px solid seashell;
-}
-.navlogo img {
-  max-height: 50px;
-  margin-left: 10px;
-}
-.navlinks {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  margin-right: 70px;
-  text-align: right;
-  text-decoration: underline;
+
+/* Header Navigation */
 
 }
-.navlinks .navlinksdiv {
-  width: 150px;
+header {
+  display: inline-flex;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: .9;
 }
+
+.navlogo img {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 10px;
+}
+
+.navlinks {
+  margin-right: 20px;
+  width: 100%;
+  align-content: center;
+  text-align: right;
+}
+
+nav span {
+  display: inline-flex;
+  padding: 20px 10px;
+}
+
+/* Header Banner */
 
 .headerbanner {
   padding-top: 70px;
