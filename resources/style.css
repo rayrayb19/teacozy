@@ -45,19 +45,14 @@ nav span {
 
 /* Header Banner */
 
-.headerbanner {
-  height: 750px;
-  width: auto;
-  background-color: black;
-  opacity: .9;
-}
-
 .headerbanner img {
   height: 700px;
   width: 1200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .missionbanner {
@@ -70,7 +65,7 @@ nav span {
   width: 1200px;
   z-index: 1;
   position: relative;
-  bottom: 500px;
+  bottom: 475px;
 }
 
 #mission {
@@ -78,10 +73,89 @@ nav span {
   padding-bottom: 30px;
   height: 0px;
 }
-#missiondescription {
-  margin-bottom: 10px;
+
+/* Tea and Selection Section */
+
+.teasectionbegin {
+  text-align: center;
+  position: relative;
+  bottom: 80px;
 }
 
+.imagecontainer {
+  width: 1175px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+}
+
+figure {
+  display: inline-block;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.fallberry img {
+  height: 200px;
+  width: 300px;
+}
+
+.spicedrum img {
+  height: 200px;
+  width: 300px;
+}
+
+.donuts img {
+  height: 200px;
+  width: 300px;
+}
+
+.myrtleave img {
+  height: 200px;
+  width: 300px;
+}
+
+.bedfordbizarre img {
+  height: 200px;
+  width: 300px;
+}
+
+figcaption {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* Location Section */
+
+.locationbanner {
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+height: 500px;
+width: 1200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+postion: relative;
+bottom: 50px;
+}
+
+#location {
+  postion: relative;
+  bottom: 50px;
+  text-align: center;
+}
+
+.locationboxes {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  opacity: 1;
+  display: inline-flex;
+  flex-direction: row;
+
+}
 /* Upper and Lower Footer*/
 
 .upperfooter {
