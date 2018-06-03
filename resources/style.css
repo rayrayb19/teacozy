@@ -3,7 +3,7 @@
 body { font-family: helvetica;
     font-size: 22px;
     color: seashell;
-    opacity: .9;
+    opacity: .6;
     background-color: black;
     margin: 0;
     padding: 0;
@@ -28,7 +28,6 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   background-color: black;
-  opacity: .9;
 }
 
 .navlogo img {
@@ -60,6 +59,7 @@ nav span {
   margin-right: auto;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  background-color: black;
 }
 
 .missionbanner {
